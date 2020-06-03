@@ -8,7 +8,7 @@ import { environment } from '../../../environments/environment';
 })
 export class AppBarComponent implements OnInit {
 
-  private title = environment.appName;
+  title = environment.appName;
 
   constructor() { }
 
