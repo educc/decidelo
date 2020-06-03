@@ -1,2 +1,8 @@
 <app-bar></app-bar>
-<p>home works!</p>
+
+<ul>
+
+  <li *ngFor="let item of items | async">
+    {{ item.title || "No title" }}
+  </li>
+</ul>
