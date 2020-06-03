@@ -12,6 +12,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {AngularFireModule} from '@angular/fire';
 import {environment} from '../environments/environment';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -24,6 +29,12 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatTabsModule,
+    MatCardModule,
+    MatDividerModule,
+    MatListModule,
+    MatButtonModule,
+    MatListModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule
   ],
